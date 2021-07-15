@@ -1,0 +1,7 @@
+C:\Users\hrist\source\repos\TextToBinary\TextToBinary\bin\Debug\TextToBinary.exe.config
+C:\Users\hrist\source\repos\TextToBinary\TextToBinary\bin\Debug\TextToBinary.exe
+C:\Users\hrist\source\repos\TextToBinary\TextToBinary\bin\Debug\TextToBinary.pdb
+C:\Users\hrist\source\repos\TextToBinary\TextToBinary\obj\Debug\TextToBinary.csprojAssemblyReference.cache
+C:\Users\hrist\source\repos\TextToBinary\TextToBinary\obj\Debug\TextToBinary.csproj.CoreCompileInputs.cache
+C:\Users\hrist\source\repos\TextToBinary\TextToBinary\obj\Debug\TextToBinary.exe
+C:\Users\hrist\source\repos\TextToBinary\TextToBinary\obj\Debug\TextToBinary.pdb
