@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -8,10 +8,14 @@ namespace TextToBinary
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("If wrong option is handed the program will print the binary values on new line!", Console.ForegroundColor = ConsoleColor.Red); Console.ResetColor();
+            Console.Write("Do you want each binary value to be printed on new line? Y/N: ");
+
+            var Q1                  = Console.ReadLine();
             var textToConvert       = Console.ReadLine();
             var storingString       = string.Empty; 
             var numberReminder      = 0;
-            char[] separator        = { ' ', ',', '.', ':' };
+            char[] separator        = { ' ', ',', '.', ':', (char)StringSplitOptions.RemoveEmptyEntries};
             char[] charArr          = textToConvert.ToCharArray();
 
             for (int index = 0; index < charArr.Length; index++)
@@ -32,9 +36,26 @@ namespace TextToBinary
 
             var newString = storingString.Split(separator).Select(s => new string(s.Reverse().ToArray()));
 
-            foreach (var r in newString)
+            switch (Q1)
             {
-                Console.WriteLine(r);
+                case "Y":
+                    invalidOption:
+                    foreach (var r in newString)
+                    {
+                        Console.WriteLine(r);
+                    }
+                    break;
+
+                case "N":
+                    foreach (var r in newString)
+                    {
+                        Console.Write(r);
+                        Console.Write(" ");
+                    }
+                    break;
+
+                default:
+                    goto invalidOption;
             }
 
             Console.ReadLine();
