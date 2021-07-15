@@ -1,11 +1,12 @@
 # What is that?
 Program that converts given text to binary system. Keep in mind that the program __cannot__ convert characters like *Æ*, *ç* *à* and the other weird ones.
 # How to use it?
-Open the executable and write down the text you wish to be converted. Simple as that
+ * Choose whether or not the binary values to be printed on new line.
+ * Wite down the text you wish to be converted.
 # Issues with the program?
 If you are having issues with the program open New Issue
 # How to check if it works?
-Use the following sites since they support binary values on new line:
+Use the following sites to convert the binary values to text:
  * https://www.convertbinary.com/to-text/
  * https://www.rapidtables.com/convert/number/ascii-to-binary.html
 # How it works?
