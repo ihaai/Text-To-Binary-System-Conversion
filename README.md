@@ -4,6 +4,10 @@ Program that converts given text to binary system.
 Open the executable and write down the text you wish to be converted. Simple as that
 # Issues with the program?
 If you are having issues with the program open New Issue
+# How to check if it works?
+Use the following sites:
+ * https://www.convertbinary.com/to-text/
+ * https://www.rapidtables.com/convert/number/ascii-to-binary.html
 # How it works?
 I'll try to explain it in simple words.
  * We declare a new Char Array that has our Text values. This is necessary to do because Strings are immuatable otherwise we wouldn't be able to modify them.
