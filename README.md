@@ -1,5 +1,5 @@
 # What is that?
-Program that converts given text to binary system.
+Program that converts given text to binary system. Keep in mind that the program __cannot__ convert characters like *Æ*, *ç* *à* and the other weird ones.
 # How to use it?
 Open the executable and write down the text you wish to be converted. Simple as that
 # Issues with the program?
