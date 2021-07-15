@@ -5,7 +5,7 @@ Open the executable and write down the text you wish to be converted. Simple as 
 # Issues with the program?
 If you are having issues with the program open New Issue
 # How to check if it works?
-Use the following sites:
+Use the following sites since they support binary values on new line:
  * https://www.convertbinary.com/to-text/
  * https://www.rapidtables.com/convert/number/ascii-to-binary.html
 # How it works?
