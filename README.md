@@ -6,7 +6,7 @@ Open the executable and write down the text you wish to be converted. Simple as 
 If you are having issues with the program open New Issue
 # How it works?
 I'll try to explain it in simple words.
- * We declare a new Char Array that has our Text values. This is necessary to do because Strings are immuatable otherwise we wouldn't be able to modify it.
+ * We declare a new Char Array that has our Text values. This is necessary to do because Strings are immuatable otherwise we wouldn't be able to modify them.
  * We declare a string where we are going to store the number reminders ( Example: Letter 'a' -> 97 in ASCII table. We are storing the reminders of the number 97 )
  * We create a for loop that will loop our Char Array from Index 0 to the last Index ( charArray.Lenght )
  * We create a endless while loop. Inside it we are doing our calculations for reminders and other stuff.
